@@ -1,0 +1,63 @@
+.login{
+    display: flex;
+    text-align: center;
+}
+.line2{
+    display: flex;
+    text-align: center;
+}
+.input{
+    border-top: hidden;
+    border-right: hidden;
+    border-left: hidden;
+    padding-top: 1.25cm;
+    width: 100%;
+}
+.input2{
+    border-top: hidden;
+    border-right: hidden;
+    border-left: hidden;
+    padding-top: 7mm;
+    width: 100%;
+}
+.right{
+    text-align: right;
+    color: rgb(103, 194, 163);
+}
+.line3{
+    display: flex;
+    padding-bottom: 4mm;
+    font-weight: bold;
+}
+.loginb{
+    display: block;
+    background-color: rgb(103, 194, 163);
+    padding-left: 2cm;
+    padding-right: 2cm;
+    padding-top: 2mm;
+    padding-bottom: 2mm;
+    border: hidden;
+    border-radius: 1mm;
+    font-weight: normal;
+    margin-right: auto;
+    margin-left: auto;
+}
+.extra1{
+    font-weight: lighter;
+    padding-left: 2mm;
+    padding-right: 2mm;
+}
+.extra2{
+    font-weight: lighter;
+    padding-left: 1em;
+}
+.copyright{
+    font-weight: lighter;
+    color: gray;
+    padding-left: 1em;
+}
+.zeus{
+    font-weight: bold;
+    color: gray;
+    padding-left: 1em;
+}

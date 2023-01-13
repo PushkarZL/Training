@@ -1,0 +1,52 @@
+.logo {
+    display: flex;
+    margin-top: 100px;
+    margin:4px;      
+}
+.logo-img {
+    display: block;
+    width: 130px;
+    height: 130px;
+    margin-bottom: 20px;
+}
+.rest{
+    margin-left: 14px;
+}
+.username {
+    display: block;
+    width: 300px;
+    margin-left: 14px;
+    margin-right: auto;
+    font-weight: bold;
+    margin-top: 24px;
+    font-size: 20px;
+}
+.tweet {
+    display: block;
+    width: 300px;
+    margin-left: 14px;
+    margin-right: auto;
+    margin-top: 14px;
+    font-size: 20px; 
+    font-weight: regular; 
+}
+.extra {
+    display: flex;
+    margin-top: 24px;
+}
+.buttons {
+    width: 20px;
+    height: 20px;
+    padding: 1px;
+}
+.number {
+    color:#858991;
+    font-family: roboto;
+    font-size:15px;
+    padding: 1px;
+    margin-right: 24px;
+    margin-top: auto;
+    margin-left: 14px;
+    margin-bottom: auto;
+    font-weight: medium;
+}
