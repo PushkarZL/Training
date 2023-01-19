@@ -1,6 +1,6 @@
 .body{
     display: grid;
-    background-color: rgb(210, 213, 215);
+    background-color: rgb(238,238,238);
     font-family: quicksand;
 }
 .header{
@@ -12,16 +12,26 @@
     padding-top: 0mm;
     margin-top: 0mm;
     margin-bottom: 0mm;
-    position: sticky;
+    position:sticky;
+        top: 0;
     display: flex;
-    margin-right: 0em;
-    padding-right: 0em;
+    margin-right: 1px;
+    padding-right: 1px;
+    margin-left: 1px;
+    margin-bottom: 1px;
 }
 .header-text{
     display: flex;
-    color: rgb(64, 190, 190);
+    color: rgb(57,174,122);
     padding-left: 4mm;
     padding-right: 4mm;
+}
+.header-text1{
+    color: white;
+    border-bottom: 1mm solid white;
+    padding-right: 1px;
+    padding-bottom: 1.6mm;
+    margin-bottom: 1px;
 }
 .header-icon{
     padding-left: 4mm;
@@ -29,7 +39,7 @@
     text-align: right;
 }
 .header2{
-    grid-column: 2/ span 7;
+    grid-column: 3/ span 5;
     grid-row: 2/ span 2;
 }
 .contact{
@@ -49,4 +59,17 @@
     justify-content: center;
     grid-column: 1/ span 9;
     grid-row: 10/ span 1;
+}
+.copyright{
+    font-weight: lighter;
+    color: gray;
+    padding-left: 1em;
+}
+.zeus{
+    font-weight: bold;
+    color: gray;
+    padding-left: 1em;
+}
+.over{
+    padding-right: 18.3cm;
 }

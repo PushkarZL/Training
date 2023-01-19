@@ -2,6 +2,11 @@
     <link rel="stylesheet" href="1login-header.css" />
     <link rel="stylesheet" href="1login-contents.css" />
     <link rel="stylesheet" href="1login-extras.css" />
+    <style>
+        input[type=checkbox] {
+            accent-color: rgb(103, 194, 163);
+        }
+    </style>
 </head>
 <body class="body">
     <div class="header">
@@ -9,7 +14,7 @@
     </div>
     <div class="contents">
         <div class="login">
-            <img src="back.svg">
+            <a class="link" href="page not found"><img class="back" src="back.svg"></a>
             <h2 class="log-in">Log in with Quantum</h2>
         </div>
         <div class="line2">
@@ -34,15 +39,15 @@
         </div>
         <div>
             <input class="input" type="text" placeholder="Username/Email ID">
-            <p class="right">FORGOT USERNAME?</p>
+            <a class="link" href="page not found"><p class="right">FORGOT USERNAME?</p></a>
             <div class="password"><input class="input2" type="password" placeholder="Password"><img src="preview.svg" /></div>
-            <p class="right">FORGOT PASSWORD?</p>
+            <a class="link" href="page not found"><p class="right">FORGOT PASSWORD?</p></a>
         </div>
         <div class="line3">
-        <input class="checkbox" type="checkbox"><p>Remember me</p>
+            <input class="checkbox" type="checkbox"><p>Remember me</p>
         </div>
         <div>
-            <a href="2Dashboard.html" target="_blank"><button class="loginb">LOG IN</button></a>
+            <a class="link" href="2Dashboard.html"><button class="loginb">LOG IN</button></a>
         </div>
     </div>
     <div class="contact">

@@ -16,7 +16,7 @@
 }
 .contents{
     background-color: rgb(255, 255, 255);
-    border-top: 1mm solid aqua;
+    border-top: 1mm solid rgb(58,199,236);
     grid-column: 4/span 1;
     grid-row: 2/ span 5;
     align-items: center;
