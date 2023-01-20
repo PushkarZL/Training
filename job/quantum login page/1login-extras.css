@@ -5,11 +5,9 @@
     margin-left: auto;
     margin-right: auto;
 }
-.radio{
-    padding-right: 1mm;
-}
 .line2text{
     padding-right: 1cm;
+    padding-left: 3mm;
 }
 .password{
     display: flex;
@@ -29,17 +27,19 @@
 .district{
     padding-top: 5mm;
     margin-bottom: 2mm;
-    font-weight: lighter;
+    color: grey;
 }
 .state{
     margin-bottom: 2mm;
-    font-weight: lighter;
+    color: grey;
 }
 .checkbox{
     background-color: rgb(103, 194, 163);
+    accent-color: rgb(103, 194, 163);
 }
 .link{
     text-decoration: none;
+    color: rgb(103, 194, 163);
 }
 .back{
     padding-top: 5mm;

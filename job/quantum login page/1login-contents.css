@@ -33,7 +33,7 @@
 }
 .line3{
     display: flex;
-    padding-bottom: 4mm;
+    padding-bottom: 1px;
     font-weight: bold;
 }
 .loginb{
@@ -48,6 +48,7 @@
     font-weight: bold;
     margin-right: auto;
     margin-left: auto;
+    cursor: pointer;
 }
 .extra1{
     font-weight: lighter;
@@ -67,4 +68,10 @@
     font-weight: bold;
     color: gray;
     padding-left: 1em;
+}
+.radio{
+    width: 5mm;
+    cursor: pointer;
+    accent-color: green;
+    padding-right: 5mm;
 }

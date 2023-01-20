@@ -5,14 +5,26 @@
     font-family: quicksand;
 }
 .header{
-    background-color: rgb(39, 38, 38);
-    padding: 1cm;
     grid-column: 1/ span 7;
     grid-row: 1/ span 1;
-    padding-bottom: 1mm;
-    padding-top: 3mm;
+    padding-bottom: 0mm;
+    padding-top: 0px;
+    margin-bottom: 8mm;
     border-bottom: 1mm solid rgb(64, 190, 190);
-    position: sticky;
+}
+.under{
+    grid-column: 1/ span 7;
+    position: relative;
+    top: 0;
+    left: 0;
+    filter: brightness(30%);
+    height: 1.5cm;
+    width: 100%;
+}
+.over{
+    position: absolute;
+    top: 20px;
+    left: 30px;
 }
 .contents{
     background-color: rgb(255, 255, 255);
